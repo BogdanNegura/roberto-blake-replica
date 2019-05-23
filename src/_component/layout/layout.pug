@@ -5,9 +5,20 @@ html
         title=title
         meta(name="descsription", content="description")
         meta(name="robots", content="noindex")
-        link(rel="canonical", href="http://robertoblake.com/")
-        link(rel="stylesheet", href="style.css")
+        meta(
+            name="viewport", 
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        )
+        link(
+            rel="canonical", 
+            href="http://robertoblake.com/"
+        )
+        link(
+            rel="stylesheet",
+            href="style.css"
+        )
 
     body
+        include ../header/header
         block awesome-content
-        h1 this is title
+        include ../footer/footer
