@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'roberto-blake-custom-font';
+    src:
+      url('asset/font/roberto-blake-custom-font.ttf?2g8qve') format('truetype'),
+      url('asset/font/roberto-blake-custom-font.woff?2g8qve') format('woff'),
+      url('asset/font/roberto-blake-custom-font.svg?2g8qve#roberto-blake-custom-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="rbcf-"], [class*=" rbcf-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'roberto-blake-custom-font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .rbcf-home3:before {
+    content: "\e902";
+  }
+  .rbcf-menu:before {
+    content: "\e9bd";
+  }
+  .rbcf-circle-down:before {
+    content: "\ea43";
+  }
+  
