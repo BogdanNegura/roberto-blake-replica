@@ -1,0 +1,16 @@
+.header {
+    background-color: $color-mine-shaft;
+    color: $color-white;
+    height: 52px;
+    line-height: 52px;
+}
+
+.header__name {
+    font-size: 2rem;
+    padding: 1.5rem;
+    display: inline-block;
+}
+
+.rbcf-menu {
+    font-size: 2.5rem;
+}
