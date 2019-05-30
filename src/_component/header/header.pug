@@ -1,6 +1,10 @@
 nav.header
     .header__top
         span.header__name Roberto Blake
-        span.rbcf-menu
+        label.rbcf-menu(for="toggle-top-menu")
+
+    //- pre=JSON.stringify(data['top-menu'], null, 2)
+    input(type="checkbox", id="toggle-top-menu")
     .header__menu-list
-        .header__menu-link(href="http://codetap.io") Codetap
+        each item in data['top-menu']
+            a.header__menu-link(href=item.href, target=item.target)=item.text

@@ -29,3 +29,15 @@
     padding: 1.5rem;
     display: block;
 }
+
+.header__menu-list {
+    display: none;
+}
+
+#toggle-top-menu {
+    display: none;
+}
+
+#toggle-top-menu:checked + .header__menu-list {
+    display: inherit;
+}
