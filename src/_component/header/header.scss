@@ -84,7 +84,8 @@
 }
 
 #header-sub-menu:checked + .header__menu-link .rbcf-circle-down::before {
-    display: inherit;
+    transform: rotate(180deg);
+    display: inline-block;
 }
 
 
