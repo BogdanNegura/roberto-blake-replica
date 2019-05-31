@@ -1,53 +1,43 @@
-[
-    {
-      "href": "http://robertoblake.com/",
-      "text": "",
-      "target": ""
-    },
-    {
-      "href": "http://robertoblake.com/about.php",
-      "text": "My Story",
-      "target": ""
-    },
-    {
-      "href": "http://robertoblake.com/speaker.php",
-      "text": "Speaking",
-      "target": ""
-    },
-    {
-      "href": "http://awesomecreatoracademy.com/",
-      "text": "Coaching",
-      "target": ""
-    },
-    {
-      "href": "http://robertoblake.com/#",
-      "text": "Courses",
-      "target": ""
-    },
-    {
-      "href": "https://www.awesomecreatoracademy.com/store/momnBKqd",
-      "text": "Formula for Awsome Videos",
-      "target": "_blank"
-    },
-    {
-      "href": "https://www.linkedin.com/learning/online-video-content-strategy",
-      "text": "Video Content Strategy ",
-      "target": "_blank"
-    },
-    {
-      "href": "https://www.awesomecreatoracademy.com/store/dPpRoH8h",
-      "text": "YouTube Starter Kit (Templates)",
-      "target": "_blank"
-    },
-    {
-      "href": "http://robertoblake.com/#",
-      "text": "Media",
-      "target": ""
+[{
+  "href": "/",
+  "text": "",
+  "target": ""
+},
+{
+  "href": "/about",
+  "text": "My Story",
+  "target": ""
+},
+{
+  "href": "/speaker",
+  "text": "Speaking",
+  "target": ""
+},
+{
+  "href": "/training",
+  "text": "Consulting",
+  "target": ""
+},
+{
+  "href": "http://justcreateawesome.com/",
+  "text": "Articles",
+  "target": "_blank"
+},
+{
+  "href": "/#",
+  "text": "Media",
+  "target": "",
+  "type": "dropdown",
+  "children": [{
+      "href": "/asset/pdf/RobertoBlake-Speaker.pdf",
+      "text": "Speaker Sheet [PDF]",
+      "target": "_blank",
+      "download": true
     },
     {
       "href": "https://www.youtube.com/watch?v=14xWRBRtIh8&list=PLvUg-IRiErnOz5AfCamIX3JGeCTWNhmND",
       "text": "Speaker Reel [YOUTUBE]",
-      "target": ""
+      "target": "_blank"
     },
     {
       "href": "http://youtube.com/robertoblake2",
@@ -55,28 +45,20 @@
       "target": "_blank"
     },
     {
-      "href": "http://youtube.com/creatorgearguide",
-      "text": "Creator Gear Guide (YouTube)",
-      "target": "_blank"
-    },
-    {
-      "href": "http://robertoblake.com/itunes",
+      "href": "https://itunes.apple.com/us/podcast/create-something-awesome-today/id1006743050?mt=2",
       "text": "CSAT Podcast",
       "target": "_blank"
-    },
-    {
-      "href": "https://medium.com/@robertoblake",
-      "text": "Articles on Medium",
-      "target": "_blank"
-    },
-    {
-      "href": "http://robertoblake.com/press.php",
-      "text": "Press",
-      "target": ""
-    },
-    {
-      "href": "http://robertoblake.com/contact.php",
-      "text": "Contact",
-      "target": ""
     }
   ]
+},
+{
+  "href": "/press",
+  "text": "Press",
+  "target": ""
+},
+{
+  "href": "/contact",
+  "text": "Contact",
+  "target": ""
+}
+]

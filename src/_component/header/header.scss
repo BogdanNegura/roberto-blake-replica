@@ -17,18 +17,14 @@
     display: inline-block;
 }
 
+
 .rbcf-menu {
     font-size: 2.5rem;
     padding: 1.5rem;
 }
 
-.header__menu-link {
-    color: $color-white;
-    font-size: 1.5rem;
-    text-decoration: none;
-    padding: 1.5rem;
-    display: block;
 
+.header__menu-item {
     &:first-child {
         &::after {
             font-family: 'roberto-blake-custom-font' !important;
@@ -36,6 +32,20 @@
             font-size: 2rem;
         }
     }
+}
+
+.header__menu-link, 
+.header__menu-sub-link {
+    color: $color-white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1.5rem;
+    display: block;
+
+}
+
+.header__menu-sub-link {
+    padding: 1.5rem 2.5rem
 }
 
 .header__menu-list {
