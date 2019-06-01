@@ -106,5 +106,11 @@
 
 .header__footer {
     background-color: $color-mine-shaft;
+    color: $color-white;
+
+    h2 {
+        font-size: 2.4rem;
+        font-weight: normal;
+    }
 }
 
