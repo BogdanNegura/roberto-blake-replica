@@ -1,0 +1,15 @@
+.footer {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.footer__link {
+    padding: 1.5rem;
+    display: block;
+    color: $color-astral;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
