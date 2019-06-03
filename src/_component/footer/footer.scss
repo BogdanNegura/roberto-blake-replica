@@ -1,6 +1,14 @@
 .footer {
     font-size: 1.4rem;
     text-align: center;
+    background-color: $color-pizazz;
+}
+
+.footer__description {
+    color: $color-white;
+    width: 34rem;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 .footer__link {
@@ -11,5 +19,25 @@
 
     &:hover {
         text-decoration: underline;
+    }
+}
+
+.social__icon {
+    display: inline-block;
+    width: 15rem;
+    height: 15rem;
+    background-image: url("asset/image/social-logo-sprite.png");
+}
+
+.social__item {
+
+    &:nth-child(2) .social__icon {
+        background-position-y: -15rem;
+    }
+    &:nth-child(3) .social__icon {
+        background-position-y: -30rem;
+    }
+    &:nth-child(4) .social__icon {
+        background-position-y: -45rem;
     }
 }
