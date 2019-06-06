@@ -38,4 +38,18 @@ hr {
     border-top: 0.1rem solid $color-gallery;
     margin: 1.5rem;
 }
+
+.youtube-video-16-by-p {
+    // border: 1rem solid red;
+    width: 100%;
+    // get the percentage for 16 by 9
+    padding-top: 52.65%;
+    position: relative;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
 @import 'landing-content';
