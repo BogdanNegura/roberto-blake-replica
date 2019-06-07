@@ -133,11 +133,20 @@
     }
 }
 
-.header__body {
-    background-image: url('asset/image/robertoblake2016header.jpg');
+%header__body {
     height: 61.1rem;
     background-position: center center;
     background-size: cover;
+}
+
+.header__body--home {
+    background-image: url('asset/image/robertoblake2016header.jpg');
+    @extend %header__body;
+}
+
+.header__body--about {
+    background-image: url('asset/image/robertoblake2016-design-header.jpg');
+    @extend %header__body;
 }
 
 .header__download {

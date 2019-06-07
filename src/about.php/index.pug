@@ -1,0 +1,18 @@
+extends ../_component/layout/layout
+block awesome-config
+    -
+        let title = `Learn More About Roberto Blake`
+        let description = `Roberto Blake is a Graphic Designer and Marketer working with individuals and brands. He is a YouTube Creator, Public Speaker and Contributing Writer to several Publications.`
+block awesome-content
+    include ../_component/mixin/link
+    .header__wrapper
+        h1 The Man Behind the Brand
+
+        .header__panel
+            .header__body--about
+            .header__footer
+                h2 Download My Free E-book on Personal Branding!
+                a.header__download(
+                    href="join-newsletter.php",
+                    title="Download Free Personal Branding Ebook"
+                    ) Download
