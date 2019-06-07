@@ -33,7 +33,7 @@
 
 .header__menu-item {
     &:first-child {
-        &::after {
+        & .header__menu-link:after {
             font-family: 'roberto-blake-custom-font' !important;
             content: "\e902";
             font-size: 2rem;
