@@ -1,0 +1,69 @@
+//reset everything
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    // reset the font size to 10px
+    font-size: 62.5%;
+}
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.content {
+    padding-top: 5.2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    color: $color-astral;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+}
+
+
+hr {
+    border-top: 0.1rem solid $color-gallery;
+    margin: 1.5rem;
+}
+
+.youtube-video-16-by-p {
+    // border: 1rem solid red;
+    width: 100%;
+    // get the percentage for 16 by 9
+    padding-top: 52.65%;
+    position: relative;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        // z-index: -1;
+    }
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.text-justify {
+    text-align: justify;
+
+    p {
+        padding: 1rem 0;
+    }
+}
+
+@import 'landing-content';
