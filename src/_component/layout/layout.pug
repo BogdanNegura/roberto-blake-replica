@@ -17,6 +17,8 @@ html
             rel="stylesheet",
             href="/style.css"
         )
+        if config.entry.css.inline
+            link(rel="stylesheet", href=`${inlinePath}`, inline)
 
     body
         include ../header/header
