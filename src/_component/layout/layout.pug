@@ -13,8 +13,8 @@ html
             rel="canonical", 
             href="http://robertoblake.com/"
         )
-        if config.entry.css.inline
-            link(rel="stylesheet", href=`${inlinePath}`, inline)
+        if config.entry.css.embed
+            link(rel="stylesheet" href=`${embedPath}` inline)
 
     body
         include ../header/header
