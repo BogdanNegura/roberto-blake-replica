@@ -10,8 +10,8 @@ html
             content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         )
         link(
-            rel="stylesheet",
-            href="/style.css"
+            rel="canonical", 
+            href="http://robertoblake.com/"
         )
         if config.entry.css.inline
             link(rel="stylesheet", href=`${inlinePath}`, inline)
@@ -22,10 +22,9 @@ html
             block awesome-content
         hr
         include ../featured/featured
-
         .footer
             include ../footer/footer
 link(
-    rel="canonical", 
-    href="http://robertoblake.com/"
+    rel="stylesheet",
+    href="/style.css"
 )
