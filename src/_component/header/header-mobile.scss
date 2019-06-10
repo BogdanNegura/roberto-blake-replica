@@ -154,5 +154,10 @@
     @extend %header__body;
 }
 
+.header__body--press {
+    background-image: url('/asset/image/robertoblake2016-press-header-2.jpg');
+    @extend %header__body;
+}
+
 
 
