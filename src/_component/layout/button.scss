@@ -2,12 +2,10 @@
     border: 0.1rem solid $color-fuel-yellow;
     background-color: $color-sandy-brown;
     text-decoration: none;
-    font-size: 2rem;
     font-weight: normal;
     color: $color-white;
     border-radius: 0.5rem;
-    text-transform: uppercase;
-
+    
     &:hover {
         background-color: $color-fuel-yellow;
         border-color: $color-meteor;
@@ -18,11 +16,14 @@
 .button__download {
     @extend %button;
     padding: 1rem 1.5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 
 .button__small {
     @extend %button;
+    font-size: 1.2rem;
     padding: 0.5rem 1rem;
     margin: 1rem 0;
     display: inline-block;
