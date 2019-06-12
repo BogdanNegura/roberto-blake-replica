@@ -149,6 +149,11 @@
     @extend %header__body;
 }
 
+.header__body--speaker {
+    background-image: url('/asset/image/robertoblake2016-speaker-header.jpg');
+    @extend %header__body;
+}
+
 .header__body--training {
     background-image: url('/asset/image/robertoblake2016-marketing-header.jpg');
     @extend %header__body;
