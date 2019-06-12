@@ -49,12 +49,3 @@ block awesome-content
             p
                 em "He has a real passion for creative entrepreneurship and empowering others, and the community he’s built around his creative philosophy is a reflection of his commitment to his following."
                 strong  Jared Kleinert-Forbes!
-
-        script.
-            let iframe = document.querySelector('iframe');
-            let handlerFunction = () => {
-                //- set the src attribute value to be the value of data-src
-                iframe.src = iframe.dataset.src;
-                document.removeEventListener('scroll', handlerFunction);
-            };
-            let scrollListener = document.addEventListener('scroll', handlerFunction);
