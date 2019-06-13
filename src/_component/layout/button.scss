@@ -18,6 +18,8 @@
     padding: 1rem 1.5rem;
     font-size: 2rem;
     text-transform: uppercase;
+    // fix for the mobile version of long text buttons
+    display: inline-block;
 }
 
 
