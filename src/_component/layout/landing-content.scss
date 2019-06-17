@@ -1,13 +1,16 @@
 .landing__content {
-    text-align: center;
+    text-align: justify;
     padding: 1.5rem;
+    color: $color-mine-shaft;
 
     p {
-        font-size: 1.4rem;
-        line-height: 1.4
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        padding-bottom: 1.3rem;
     }
     h2 {
         font-size: 3rem;
         font-weight: normal;
+        padding-bottom: 1.3rem;
     }
 }
